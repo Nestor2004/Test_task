@@ -1,8 +1,8 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 
 // Асинхронна дія для отримання коментарів
-export const fetchComments = createAsyncThunk('comments/fetchComments', async (postId) => {
-    const response = await fetch(`https://jsonplaceholder.typicode.com/posts/${postId}/comments`);
+export const fetchComments = createAsyncThunk('comments/fetchComments', async () => {
+    const response = await fetch(`https://jsonplaceholder.typicode.com/comments`);
     return response.json();
 });
 

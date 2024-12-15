@@ -16,6 +16,7 @@ export default {
         customGray_2:'rgba(232, 232, 232, 1)',
         placeholderColor:'rgba(72, 72, 72, 1)',
         customGreen_2:'rgba(4, 170, 0, 1)',
+        customWhite:'rgba(245, 245, 245, 1)',
       },
       fontFamily: {
         inter: ['Inter', 'sans-serif'],

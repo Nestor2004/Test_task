@@ -39,8 +39,8 @@ return (
         </div>
 
       {posts.slice(0, 5).map(post => (
-        <article key={post.id} className="flex flex-row w-full gap-5">
-            <img src="https://via.placeholder.com/150" alt="Post Image" className="mb-2 w-[223px] h-[136px] rounded-2xl ml-4" />
+        <article key={post.id} className="flex flex-row w-full gap-5 pt-5">
+            <div className="mb-2 w-[223px] h-[136px] rounded-2xl ml-4 bg-customWhite"></div>
           <div className="flex flex-col h-[136px]">
             <p className="text-sm text-gray-600  opacity-30 pb-5">Wednesday 12, March 2024</p>
             <Link href={`/post/${post.id}`}><h3 className="font-semibold font-inter text-[16px] h-full w-[223px]" >{post.title}</h3></Link> 
